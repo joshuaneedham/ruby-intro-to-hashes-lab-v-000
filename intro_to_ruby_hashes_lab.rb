@@ -1,9 +1,11 @@
 def new_hash
 	new_hash = Hash.new
 end
-	actor = Hash.new { |name, key| name[key] = "Dwayne The Rock Johnson" }
+# actor = Hash.new { |name, key| name[key] = "Dwayne The Rock Johnson" }
 def actor
-
+	actor = {
+		name: "Dwayne The Rock Johnson"
+	}
 end
 
 def monopoly
